@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Fredoka+One&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Press+Start+2P&family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="dist/css/lightbox.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	<title>K-DRAMAS</title>
+</head>
+<body>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+	<header>
+        <h1 id="logo">HONEYJAM</h1>
+		<nav>
+			<ul class = "nav_links">
+				<li class="nav_item"><a href = "index.html" >ABOUT</a></li>
+                <li class="nav_item"><a href = "k-pop.html">K-POP</a></li>
+                <li class="active"><a href = "k-dramas.html">K-DRAMAS</a></li>
+                <li class="nav_item"><a href = "movies.html">K-MOVIES</a></li>
+                <li class="nav_item"><a href = "form.html">CONTACT</a></li>
+			</ul>
+		    <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="menu">
+        		<i class="fa fa-bars"></i>
+      		</a>
+		</nav>
+
+	</header>
+	<script>
+	function myFunction() {
+    	var x = document.getElementById("topnav");
+    	if (x.className === "nav") {
+        	x.className += " responsive";
+    	} else {
+        	x.className = "nav";
+    	}
+	}
+	</script>
+	
+	<main class="dramas" id="skip">
+        <div class="dramaintro">
+            <h2>
+                As "Squid Game" on Netflix has proved, South Korea has hit a series of home runs in the TV show industry, bringing many people into the K-Drama world.
+                <br>
+                Check out these BEST KOREAN TV Shows of all time by genres. I guarantee these are the shows every Korean knows and still loves!
+            </h2>
+            <h3>
+				BEST K-DRAMAS
+			</h3>
+            <button onclick="myFunction()">Dark mode</button>
+            <script>
+                function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("dark-mode");
+                }
+            </script>
+        </div>
+
+	    <button type="button" data-filter="all">All</button>
+	    <button type="button" data-filter=".romance">Romance</button>
+	    <button type="button" data-filter=".thriller">Thriller</button>
+        <button type="button" data-filter=".crime">Crime</button>
+        <button type="button" data-filter=".drama">Drama</button>
+
+        <div class="container" id= "dramas">
+            <a class="mix thriller" href="images/squidgame.jpg" data-lightbox="image" data-title="Squidgame">
+                <img class="class-example" src = "images/squidgame.jpg" alt = "squid game"/>
+            </a>
+            
+            <a class="mix romance" href="images/guardian.jpg" data-lightbox="image" data-title="Guardian: The Lonely and Great God">
+                <img class="class-example" src = "images/guardian.jpg" alt = "guardian the lonely and great god"/>
+            </a>
+            
+            <a class="mix romance" href="images/taeyang.jpg" data-lightbox="image" data-title="Descendants of the Sun">
+                <img class="class-example" src = "images/taeyang.jpg" alt = "descendants of the sun"/>
+            </a> 
+            
+            <a class="mix drama" href="images/reply1988.jpg" data-lightbox="image" data-title="The reply series: 1988">
+                <img class="class-example" src = "images/reply1988.jpg" alt = "the reply series 1988"/>
+            </a>  
+
+            <a class="mix drama" href="images/reply1994.jpeg" data-lightbox="image" data-title="The reply series: 1994">
+                <img class="class-example" src = "images/reply1994.jpeg" alt = "the reply series 1994"/>
+            </a> 
+
+            <a class="mix drama" href="images/reply1997.jpeg" data-lightbox="image" data-title="The reply series: 1997">
+                <img class="class-example" src = "images/reply1997.jpeg" alt = "the reply series 1997"/>
+            </a> 
+        
+            <a class="mix drama" href="images/skycastle.jpg" data-lightbox="image" data-title="Sky castle">
+                <img class="class-example" src = "images/skycastle.jpg" alt = "sky castle"/>
+            </a> 
+           
+            <a class="mix romance" href="images/star.jpg" data-lightbox="image" data-title="My Love from the Star">
+                <img class="class-example" src = "images/star.jpg" alt = "my Love from the Star" />
+            </a>
+           
+            <a class="mix romance" href="images/theheirs.jpg" data-lightbox="image" data-title="The heirs">
+                <img class="class-example" src = "images/theheirs.jpg" alt = "the heirs" />
+            </a>
+       
+            <a class="mix romance" href="images/crash.jpg" data-lightbox="image" data-title="Crash landing on you">
+                <img class="class-example" src = "images/crash.jpg" alt = "crash landing on you" />
+            </a>
+          
+            <a class="mix drama" href="images/pentthouse.jpg" data-lightbox="image" data-title="Penthouse">
+                <img class="class-example" src = "images/pentthouse.jpg" alt = "penthouse" />
+            </a> 
+
+            <a class="mix crime" href="images/stranger.jpeg" data-lightbox="image" data-title="Stranger">
+                <img class="class-example" src = "images/stranger.jpeg" alt = "stranger" />
+            </a> 
+
+        </div>
+
+    </main>
+    <footer class="footer-basic">
+		<div class="social"><a href="https://www.instagram.com/joan_suh/" target="_blank"><i class="icon ion-social-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a><a href="https://www.snapchat.com/add/joan9179?share_id=NzNGQUND&locale=en_US" target="_blank"><i class="icon ion-social-snapchat" aria-hidden="true"></i><span class="sr-only">Snapchat</span></a><a href="https://www.facebook.com/profile.php?id=100007914850986" target="_blank"><i class="icon ion-social-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></div>
+            <ul class="list-inline">
+                <li class="nav_item"><a href = "index.html" >ABOUT</a></li>
+				<li class="nav_item"><a href = "k-pop.html">K-POP</a></li>
+				<li class="nav_item"><a href = "k-dramas.html">K-DRAMAS</a></li>
+				<li class="nav_item"><a href = "movies.html">K-MOVIES</a></li>
+				<li class="nav_item"><a href = "form.html">CONTACT</a></li>
+            </ul>
+            <p class="copyright">Joan Suh © 2022</p>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+	</footer>
+    <script src="dist/js/lightbox.js"></script>
+    <script src="dist/js/mixitup.min.js"></script>
+    <script>
+        var containerEl = document.querySelector('.container');
+        var mixer = mixitup(containerEl);
+    </script>
+</body>
+</html>
