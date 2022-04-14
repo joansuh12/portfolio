@@ -139,6 +139,16 @@ a {
     object-fit: fill;
 }
 
+.introduction{
+	background-image: url("../images/parallex.jpeg");
+	height: 100%;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
 .honeyjambox {
 	display: block;
 	margin:auto;
@@ -592,7 +602,6 @@ a.skip:focus{
 	transform: 0;
 	}
 
-
 }
 
 
@@ -663,6 +672,10 @@ a.skip:focus{
 		width: 200px;
 		height: 200px;
 	}
+
+	.introduction {
+		background-attachment: scroll;
+	  }
 }
 
 
