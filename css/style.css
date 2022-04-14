@@ -599,7 +599,8 @@ a.skip:focus{
 	}
 
 .playlist1-flipcard:hover .card-inner, .playlist2-flipcard:hover .card-inner, .playlist3-flipcard:hover .card-inner, .playlist4-flipcard:hover .card-inner, .playlist1-flipcard:focus-within .card-inner, .playlist2-flipcard:focus-within .card-inner, .playlist3-flipcard:focus-within .card-inner, .playlist4-flipcard:focus-within .card-inner, .card-back{
-	transform: 0;
+	-webkit-transform: none;
+  	transform: none;
 	}
 
 }
